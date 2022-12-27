@@ -1,0 +1,4 @@
+C:/Users/Asaki/Desktop/CMake/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Asaki/Desktop/CMake/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Asaki/Desktop/CMake/build/pybmain/CMakeFiles/pybmain.dir
+C:/Users/Asaki/Desktop/CMake/build/biology/CMakeFiles/biology.dir

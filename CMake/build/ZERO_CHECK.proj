@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Build" Inputs="C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\f9ce130f597868bfd7873998e32a813d\generate.stamp.rule;C:\Users\Asaki\Desktop\CMake\CMakeLists.txt;C:\Users\Asaki\Desktop\CMake\biology\CMakeLists.txt;C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\3.24.0-rc1\CMakeCXXCompiler.cmake;C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\3.24.0-rc1\CMakeRCCompiler.cmake;C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\3.24.0-rc1\CMakeSystem.cmake;C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\cmake.verify_globs;C:\Users\Asaki\Desktop\CMake\pybmain\CMakeLists.txt;F:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake" Outputs="C:\Users\Asaki\Desktop\CMake\build\CMakeFiles\generate.stamp;C:\Users\Asaki\Desktop\CMake\build\pybmain\CMakeFiles\generate.stamp;C:\Users\Asaki\Desktop\CMake\build\biology\CMakeFiles\generate.stamp">
+    <Message Text="Checking Build System" />
+    <Exec Command="setlocal&#10;F:\CMake\bin\cmake.exe -SC:/Users/Asaki/Desktop/CMake -BC:/Users/Asaki/Desktop/CMake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Asaki/Desktop/CMake/build/CppCMakeDemo.sln&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+  <Target Name="Clean" />
+  <Target Name="GetTargetPath" />
+  <Target Name="GetNativeManifest" />
+  <Target Name="GetCopyToOutputDirectoryItems" />
+  <Target Name="BeforeBuild" BeforeTargets="Build">
+    <Message Text="Checking File Globs" />
+    <Exec Command="setlocal&#10;F:\CMake\bin\cmake.exe -P C:/Users/Asaki/Desktop/CMake/build/CMakeFiles/VerifyGlobs.cmake&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd&#10;:VCEnd" />
+  </Target>
+</Project>
