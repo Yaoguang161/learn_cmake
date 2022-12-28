@@ -13,7 +13,7 @@
   - [1.3源码放在子文件夹里](#13源码放在子文件夹里)
 - [2.项目配置变量](#2项目配置变量)
 
-
+* [推荐的目录组织方式](#推荐的目录组织方式)
 
 # CMake教程
 
@@ -131,3 +131,50 @@ if (NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
 ```
+
+
+
+
+
+# 推荐的目录组织方式
+
+* 目录组织格式
+* 项目名/include/项目名/模块名.h
+* 项目名/src/模块名.cpp
+
+----
+
+* CMakeLists.txt中 写:
+
+* target_include_directories(项目名   PUBLIC   include)
+
+---
+
+* 源码文件中写:
+
+* #include<项目名/模块名.h>
+* 项目名::函数名();
+
+---
+
+* 头文件(项目名/include/项目名/模块名.h)中写:
+* #pragma once
+* namespace 项目名{
+* void 函数名();
+* }
+
+---
+
+* 实现文件(项目名/src/模块名.cpp)中写
+* #include<项目名/模块名.h>
+* namespace 项目名{
+* void 函数名() { 函数实现 }
+* }
+
+
+
+---
+
+* 大型的项目,往往会划分几个子项目
+* 即使只有一个子项目,也要先创建一个子目录,方便以后最佳新的子项目
+* 分别在各自的目录下有自己的CMakeLists.txt
